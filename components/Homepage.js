@@ -5,6 +5,7 @@ import TopSlider from './TopSlider';
 import Header from './Header';
 import Process from './Process';
 import { Flex, ScrollView } from 'native-base';
+import Follow from './Follow';
 
 export default function Homepage() {
     return (
@@ -28,7 +29,7 @@ export default function Homepage() {
                     img={require("./images/Jimbos_ingredients_sq.jpg")}
                     text="Become a Jimbo's Vendor"
                 />
-                <View style={{ height: 4 }} />
+                <Follow />
             </ScrollView>
         </View>
     )
