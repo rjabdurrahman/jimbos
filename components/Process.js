@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Heading, Spacer, Text } from 'native-base'
+import { Box, Center, Flex, Text } from 'native-base'
 import React from 'react'
 import { Image, View } from 'react-native'
 import { useFonts, BebasNeue_400Regular } from "@expo-google-fonts/bebas-neue";
