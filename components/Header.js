@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Center, Flex, HamburgerIcon, Menu, Spacer } from "native-base"
 import { Pressable, View, Image } from 'react-native';
 import { FontAwesome5 } from "@expo/vector-icons";
+import TopSlider from './TopSlider';
 
 export default function Header() {
     return (
@@ -72,9 +73,10 @@ export default function Header() {
                         style={{
                             height: 38
                         }}
-                    />
+                        />
                 </Center>
             </Box>
+            <TopSlider />
         </View>
     )
 }
