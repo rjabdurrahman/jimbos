@@ -1,5 +1,5 @@
 import React from 'react'
-import { Center, Flex, HamburgerIcon, Menu, Spacer } from "native-base"
+import { Center, Flex, HamburgerIcon, Menu, Spacer, Text } from "native-base"
 import { Pressable } from 'react-native';
 import { FontAwesome5 } from "@expo/vector-icons";
 
@@ -43,14 +43,19 @@ export default function HeaderTop() {
                         </Pressable>;
                     }}
                 >
-                    <Menu.Item>Arial</Menu.Item>
-                    <Menu.Item>Nunito Sans</Menu.Item>
-                    <Menu.Item>Roboto</Menu.Item>
-                    <Menu.Item>Poppins</Menu.Item>
-                    <Menu.Item>SF Pro</Menu.Item>
-                    <Menu.Item>Helvetica</Menu.Item>
-                    <Menu.Item isDisabled>Sofia</Menu.Item>
-                    <Menu.Item>Cookie</Menu.Item>
+                    {[
+                        'About',
+                        'Community',
+                        'Join Our Team',
+                        'Departments',
+                        'Locations'
+                    ].map(name => <Menu.Item key={name}>
+                        <Text
+                            style={{
+                                textTransform: 'uppercase'
+                            }}
+                        >{name}</Text>
+                    </Menu.Item>)}
                 </Menu>
             </Center>
         </Flex>
