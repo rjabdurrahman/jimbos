@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f62693fe-84af-4621-920d-cf28b9a95810"
+      }
+    },
+    "owner": "rjabdurrahman"
   }
 }
