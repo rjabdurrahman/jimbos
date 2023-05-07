@@ -1,11 +1,11 @@
 import React from "react";
 import { NativeBaseProvider } from "native-base";
-import Header from "./components/Header";
+import Homepage from "./components/Homepage";
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <Header />
+      <Homepage />
     </NativeBaseProvider>
   );
 }
