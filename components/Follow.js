@@ -1,6 +1,6 @@
 import React from 'react'
-import { Box, Center, Flex, Spacer, Text, Circle } from 'native-base'
-import { Image, View } from 'react-native'
+import { Center, Flex, Spacer, Text, Circle } from 'native-base'
+import { View } from 'react-native'
 import { useFonts, BebasNeue_400Regular } from "@expo-google-fonts/bebas-neue";
 import { FontAwesome5 } from "@expo/vector-icons";
 

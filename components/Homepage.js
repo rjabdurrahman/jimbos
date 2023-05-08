@@ -4,8 +4,9 @@ import { View } from 'react-native';
 import TopSlider from './TopSlider';
 import Header from './Header';
 import Process from './Process';
-import { Flex, ScrollView } from 'native-base';
+import { ScrollView } from 'native-base';
 import Follow from './Follow';
+import { JoinForm } from './JoinForm';
 
 export default function Homepage() {
     return (
@@ -30,6 +31,7 @@ export default function Homepage() {
                     text="Become a Jimbo's Vendor"
                 />
                 <Follow />
+                <JoinForm />
             </ScrollView>
         </View>
     )
